@@ -1,0 +1,12 @@
+span.kiwicf-not-valid-tip {
+	direction: rtl;
+}
+
+.use-floating-validation-tip span.kiwicf-not-valid-tip {
+	left: auto;
+	right: 20%;
+}
+
+span.kiwicf-list-item {
+	margin: 0 1em 0 0;
+}

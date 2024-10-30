@@ -1,0 +1,81 @@
+.kiwi-cf-faq {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.kiwi-cf-faq-question {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.kiwi-cf-faq-question h2 {
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.kiwi-cf-faq-answer {
+    background-color: rgba(35, 80, 245, 0.1);
+    border-left: 3px #0073aa solid;
+    color: #333333;
+    display: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+.kiwi-cf-faq-expanded {
+    transition: all .3s ease-in-out;
+}
+
+.kiwi-cf-faq-toggle {
+    background: transparent;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #333333;
+    height: 8px;
+    width: 8px;
+    transition: all .3s ease-in-out;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.kiwi-cf-faq-toggle-open {
+    -moz-transform: rotate(-224deg);
+    -ms-transform: rotate(-224deg);
+    -webkit-transform: rotate(-224deg);
+    transform: rotate(-224deg);
+}
+
+.kiwi-cf-main-faq {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.kiwi-cf-main-faq img {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .kiwi-cf-main-faq img {
+        height: 150px;
+        width: 75%;
+    }
+}
